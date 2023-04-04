@@ -41,6 +41,7 @@
 
 .background-gray{
     background-color: #d2d2d2;
+    
 }
 
 .background-pastel-pink{
@@ -175,7 +176,7 @@ main section div.big-column{
     height: 500px;
 }
 
-main section div.blue-column{
+main section div.first-big-column{
     background-color: rgba(255, 255, 255, 0);
     width: 60%;
     background-image: url(../img/item1.svg);
@@ -183,22 +184,48 @@ main section div.blue-column{
     height: 450px;
 }
 
-main section div.pink-column{
+main section div.first-little-column{
     background-color:rgba(255, 255, 255, 0);
     width: 40%;
     padding: 0px 90px;
     
 }
-main section div.pink-column h1 {
+main section div.first-little-column h1 {
     font-size: 2.5rem;
     line-height: 1.2;
 }
 
-main section div.pink-column p {
+main section div.first-little-column p {
     font-size: 1rem; 
     line-height: 1.4;
     margin-top: 20px;
 }
+main section div.second-little-column {
+    background-color:rgba(255, 255, 255, 0);
+    width: 40%;
+    padding: 40px 90px;
+
+}
+
+main section div.second-big-column {
+    background-color:rgba(255, 255, 255, 0);
+    background-image: url(../img/item2.svg);
+    background-position: top;
+    height: 450px;
+    width: 60%;
+
+}
+main section div.second-little-column h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+main section div.second-little-column p {
+    font-size: 1rem; 
+    line-height: 1.4;
+    margin-top: 20px;
+}
+
 
 main section div.big-column{
     background-color: #1e7b1e;
