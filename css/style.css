@@ -22,8 +22,13 @@
     margin: 0 auto;
 }
 
-.dashed-border{
-    border: 2px dashed black;
+.bg-white {
+    background-color: white;
+}
+
+
+.bg-black {
+    background-color: black;
 }
 
 .dashed-border-white{
@@ -31,7 +36,7 @@
 }
 
 .background-gold{
-    background-color: #d9a420;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .background-gray{
@@ -48,18 +53,35 @@ body{
 }
 
 header{
-    background-color: #acd7e5;
+    background-color:rgb(49, 97, 224);
     /* padding-bottom: 5px; */
+    color: white;
 }
 
 header section.upper{
     height: 80px;
+   width: 75%;
 }
+
+
 
 section.upper{
     width: 100%;
     height: 40px;
-    align-items: center;
+   
+}
+
+.access-button {
+    background-color: white;
+    margin-left: 70px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
 }
 
 section.upper>div{
@@ -69,32 +91,77 @@ section.upper>div{
 
 section.upper nav {
     width: 60%;
+    margin-top: 10px;
 }
 
 section.upper nav ul{
     list-style-type: none;
     padding: .5rem 1rem;
     justify-content: center;
+    font-size: 0.75rem;
 }
 
 section.upper nav ul li{
-    margin-right: .5rem;
+   margin-right: 1.5rem;
 }
 
 section.upper div.login{
     text-align: right;
+    
+    color: black;
+    width: 20%;
 }
 
 header section.jumbotron{
-    background-color: #00008a;
+     background-image: url(../img/jumbo.png);
     /* height: 550px; */
     padding: 4rem 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 section.jumbotron .hero{
-    background-color: #ed81ed;
+    background-color: rgba(255, 255, 255, 0);
     height: 400px;
     width: 75%;
+    padding: 0px 100px;
+    text-align: center;
+}
+
+section.jumbotron .hero p {
+    margin-top: 50px;
+    line-height: 2rem;
+}
+
+section.jumbotron .hero h1 {
+
+    font-size: 3rem;
+} 
+
+section.jumbotron .hero .button-hero1, .button-hero2 {
+    
+   
+    
+    color: black;
+    border-radius: 30px;
+    border: 0;
+    line-height: 2.5;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.button-hero2 {
+    color: white;
+}
+
+.hero-button-container {
+    margin-top: 20px;
+    justify-content: center;
+
 }
 
 main>section{
