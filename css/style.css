@@ -176,13 +176,28 @@ main section div.big-column{
 }
 
 main section div.blue-column{
-    background-color: #1c87f0;
+    background-color: rgba(255, 255, 255, 0);
     width: 60%;
+    background-image: url(../img/item1.svg);
+    background-position: top;
+    height: 450px;
 }
 
 main section div.pink-column{
-    background-color: #f1b5c0;
+    background-color:rgba(255, 255, 255, 0);
     width: 40%;
+    padding: 0px 90px;
+    
+}
+main section div.pink-column h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+main section div.pink-column p {
+    font-size: 1rem; 
+    line-height: 1.4;
+    margin-top: 20px;
 }
 
 main section div.big-column{
